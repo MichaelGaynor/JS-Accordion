@@ -1,0 +1,32 @@
+$niceGrey: #4D4D4A;
+$niceBlue: #00C6D8;
+
+body{
+ margin: 0; 
+ padding: 0;
+}
+
+div.accordion{
+  background-color: $niceBlue;
+  color: white;
+  padding: 2px;
+  width: 400px;
+  min-height: 400px;
+}
+
+h3{
+  background-color: $niceBlue;
+  color: white;
+padding: 2px;
+  width: 400px;
+
+.content{
+  background-color: white;
+  color: $niceGrey;
+  width: 390px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
