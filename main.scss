@@ -7,23 +7,36 @@ body{
 }
 
 div.accordion{
-  background-color: $niceBlue;
+  // background-color: $niceBlue;
   color: white;
-  padding: 2px;
+  margin: auto;
   width: 400px;
-  min-height: 400px;
+  min-height: 200px;
+  border: 3px 3px 3px 3px solid $niceBlue;
+
 }
 
 h3{
   background-color: $niceBlue;
   color: white;
-padding: 2px;
-  width: 400px;
+  padding: 5px 2px;
+  width: 396px;
+  // border-bottom: 2px solid #00A5B2;
+  margin: 0;
+}
+
+h3.accordion-toggle:hover{
+  background-color: #00A5B2;
+}
 
 .content{
   background-color: white;
   color: $niceGrey;
   width: 390px;
+  padding: 2px;
+  margin: auto auto;
+  border: 3px solid $niceBlue;
+  border-top: 0;
 }
 
 a{

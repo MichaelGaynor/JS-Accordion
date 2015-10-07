@@ -1,19 +1,32 @@
 body {
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
 div.accordion {
-  background-color: #00C6D8;
   color: white;
-  padding: 5px;
-  width: 400px; }
+  margin: auto;
+  width: 400px;
+  min-height: 200px;
+  border: 3px 3px 3px 3px solid #00C6D8; }
 
 h3 {
   background-color: #00C6D8;
-  color: white; }
+  color: white;
+  padding: 5px 2px;
+  width: 396px;
+  margin: 0; }
 
-div.content {
+h3.accordion-toggle:hover {
+  background-color: #00A5B2; }
+
+.content {
   background-color: white;
-  color: #4D4D4A; }
+  color: #4D4D4A;
+  width: 390px;
+  padding: 2px;
+  margin: auto auto;
+  border: 3px solid #00C6D8;
+  border-top: 0; }
 
 a {
   color: white;
