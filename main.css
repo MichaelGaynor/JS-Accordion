@@ -7,14 +7,28 @@ div.accordion {
   margin: auto;
   width: 400px;
   min-height: 200px;
-  border: 3px 3px 3px 3px solid #00C6D8; }
+  border: 3px 3px 3px 3px solid #00C6D8;
+  overflow: hidden;
+   }
+
+div.content{
+  transition: 2s ease;
+}
+
+div.content.off{
+  height: 0;
+}
+
+div.content.on{
+  height: 100px;
+}
 
 h3 {
   background-color: #00C6D8;
   color: white;
   padding: 5px 2px;
   width: 396px;
-  margin: 0; }
+  margin: 0;} 
 
 h3.accordion-toggle:hover {
   background-color: #00A5B2; }
@@ -26,7 +40,9 @@ h3.accordion-toggle:hover {
   padding: 2px;
   margin: auto auto;
   border: 3px solid #00C6D8;
-  border-top: 0; }
+  border-top: 0;
+  overflow: hidden;
+}
 
 a {
   color: white;
